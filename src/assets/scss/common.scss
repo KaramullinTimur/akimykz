@@ -1,0 +1,13 @@
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+.uppercase {
+    text-transform: uppercase;
+} 
+
+@media screen and (max-width: 540px) {
+    .container {
+        padding: 0 10px;
+    }
+}
